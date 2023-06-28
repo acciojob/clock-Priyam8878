@@ -12,6 +12,7 @@ var sec = d.getSeconds();
 
 date = date < 10 ? "0"+date : date ;
 month = month < 10 ? "0"+ month : month ;
+min = min < 10 ? "0"+ min : min ;
 
 para.innerHTML = date+"/"+month+"/"+year+", "+hour+":"+min+":"+sec ;
 console.log(para.innerHtml);
